@@ -11,7 +11,7 @@ export default function Footer() {
                     <span className='text-[#ff5900] text-[12px] sm:text-[14px] md:text-[16px] font-semibold'>
                         PRZEDSIĘBIORSTWO <br />
                         BUDOWLANE I DROGOWE <br />
-                        <span className='font-bold'>"TRANSPYCH"</span><br />
+                        <span className='font-bold'>TRANSPYCH</span><br />
                         HENRYK DUTKIEWICZ
                     </span> <br />
                     <div className='pt-2'>
@@ -22,7 +22,7 @@ export default function Footer() {
                     </span>
                 </div>
                 <div className='w-[50%] px-4 ml-7 mt-auto mb-auto pb-3'>
-                    <img className='object-cover' src="/img/Transpych-logo.png" />
+                    <img className='object-cover' src='/img/Transpych-logo.png' />
                 </div>
                 <div className='grid grid-cols-1 sm:grid-cols-3 sm:gap-9 pr-12 sm:pr-7 pl-9 sm:pl-5 sm:items-center'>
                     <div><FontAwesomeIcon className='text-[23px] md:text-[25px] lg:text-[32px] text-[#ff5900] hover:bg-white hover:p-1 hover:rounded-[50%]' icon={faPhone} /></div>
