@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+  scroll-behavior: smooth;
+}
+
+.bannerbgimage {
+  background-image: url('/img/bannerbackground.jpg');
+  height: 973px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.experiencebgimage {
+  background-image: url('/img/experiencebackground.png');
+  background-size: cover;
+  background-position: right;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+.developerbgimage {
+  background-image: url('/img/light-pattern.png');
+}
+
+.modernhousesbgimage{
+  background-image: url('/img/morderhousesbg.png');
+  background-position: 25% 75%;
+  background-size: cover;
+}
+.servicesbgimage{
+  background-image: url('/img/morderhousesbg-mirrored.png');
+  background-position: 25% 75%;
+  background-size: cover;
+}
+
+.footerbgimage{
+  background-image: url('/img/pattern.jpg');
+  background-size: cover;
+}
+
+@media (min-width: 640px) {
+  .experiencebgimage {
+    height: 700px;
+    background-position: center;
+  }
+}
+
+.buttonshadow {
+  box-shadow: 0px 0px 24px -4px rgba(255, 89, 0, 1);
+}
+
+@media (max-width:640px) {
+  .onPhoneScreenHidden {
+    display: none;
+  }
+
+  .onPhoneScreenPadding {
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 500px)
+{
+  .onPhoneScreenTittleSize{
+    font-size: 30px;
+  }
+  .onPhoneScreenTextSize{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 500px){
+  .onPhoneScreenMap{
+    width: 350px;
+  }
+}
